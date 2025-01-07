@@ -1,7 +1,7 @@
 package com.javaproject.aldeny.zip.maker.and.convertor;
 
 import javafx.application.Application;
-import javafx.scene.Group;
+import javafx.scene.StackPane;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
@@ -13,7 +13,7 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) {
-        Group root = new Group();
+        StackPane root = new StackPane();
         Scene scene = new Scene(root, 800, 640);
         stage.setScene(scene);
         stage.show();
