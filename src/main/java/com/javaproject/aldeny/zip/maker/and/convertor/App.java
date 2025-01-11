@@ -16,6 +16,7 @@ public class App extends Application {
         Group root = new Group();
         Scene scene = new Scene(root, 800, 640);
         stage.setScene(scene);
+        stage.setTitle("My Application");
         stage.show();
     }
 
